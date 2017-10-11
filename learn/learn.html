@@ -1,0 +1,74 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Learn</title>
+        <link href="learn.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="lessons.js"></script>
+        <script src="learn.js"></script>
+    </head>
+    <body onload="load();">
+        <div class="top-links">
+            <table>
+                <tr>
+                    <td>
+                        <a id="home" href="../index.html">Home</a>
+                    </td>
+                    <td>
+                        <h2 id="hgs">HGS Coder Club</h2>
+                    </td>
+                    <td>
+                        <a id="completed-link" href="https://154852.github.io/flappy-bird/">See The Completed Product Here!</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="chapter-control">
+            <table>
+                <tr>
+                    <td>
+                        <img id="back" src="../resources/next-page.png" alt="Back" onmouseup="backPage(0);" />
+                    </td>
+                    <td>
+                        <h2 id="chapter-name">Introduction</h2>
+                    </td>
+                    <td>
+                        <img id="next" src="../resources/next-page.png" alt="Next" onmouseup="nextPage(0);" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="lesson-control">
+            <table>
+                <tr>
+                    <td>
+                        <img id="back2" src="../resources/next-page.png" alt="Back" onmouseup="backPage(1);" />
+                    </td>
+                    <td>
+                        <h3 id="lesson-name">Introduction</h3>
+                    </td>
+                    <td>
+                        <img id="next2" src="../resources/next-page.png" alt="Next" onmouseup="nextPage(1);" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="result">
+            <h1 id="title"></h1>
+            <table>
+                <tr>
+                    <td>
+                        <p id="text"></p>
+                    </td>
+                    <td>
+                        <img src="../resources/main.png" id="image"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
