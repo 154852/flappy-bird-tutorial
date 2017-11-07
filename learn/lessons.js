@@ -41,6 +41,23 @@ var lessons = {
                 "title": "GitHub",
                 "image": "githubcode.png",
                 "text": "Github (despite its funny name) is probably the worlds most used website for developers and is used by NASA, the people behind facebook and netflix and most importantly small developers who need a place to put code. The main use of GitHub is how you can commit code onto it and then work on it with others or to allow others to see what you have done. You can see all of the code this website and the game we will be developing <a href=\"https://github.com/154852\">here</a>. The repositry for this site is <a href=\"https://github.com/154852/flappy-bird-tutorial\">flappy-bird-tutorial</a> and the actual game can be found at <a href=\"https://github.com/154852/flappy-bird\">flappy-bird</a>."
+            },
+            2: {
+                "name": "Let's begin!",
+                "title": "Starting the game",
+                "image": "flappybird2.png",
+                "text": "Now we can begin the process os building our game, feel free to play around with i give you, try changing something - what happens, try modifiying numbers, if you can think of a way to improve my code do please say!"
+            }
+        }
+    },
+    4: {
+        "name": "A bit more HTML",
+        "lessons": {
+            1: {
+                "name": "",
+                "title": "",
+                "image": "",
+                "text": ""
             }
         }
     }
