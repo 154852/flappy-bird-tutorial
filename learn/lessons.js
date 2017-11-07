@@ -32,5 +32,16 @@ var lessons = {
                 "text": "So our website has the main html element. Inside of this add another element <var>&#60;body></var> this will contain our main elements like text or images. Add another element outside of the body tag called <var>&#60;head></var>. This will contain things like our page title and encoding. The title is what will appear on the tab of your webpage otherwise it is just the path to your website."
             }
         }
+    },
+    3: {
+        "name": "The Game",
+        "lessons": {
+            1: {
+                "name": "GitHub",
+                "title": "GitHub",
+                "image": "githubcode.png",
+                "text": "Github (despite its funny name) is probably the worlds most used websites for developers and is used by NASA, the people behind facebook and netflix and most importantly small developers who need a place to put code. The main use of GitHub is how you can commit code onto it and then work on it with others or to allow others to see what you have done. You can see all of the code this website and the game we will be developing <a href="https://github.com/154852">here</a>. The repositry for this site is <a href="https://github.com/154852/flappy-bird-tutorial">flappy-bird-tutorial</a> and the actual game can be found at <a href="https://github.com/154852/flappy-bird">flappy-bird</a>."
+            }
+        }
     }
 };
