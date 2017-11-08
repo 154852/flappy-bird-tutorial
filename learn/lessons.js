@@ -51,13 +51,13 @@ var lessons = {
         }
     },
     4: {
-        "name": "A bit more HTML",
+        "name": "HTML - The Simple Bits",
         "lessons": {
             1: {
-                "name": "",
-                "title": "",
-                "image": "",
-                "text": ""
+                "name": "Structure",
+                "title": "A Good Structure",
+                "image": "structure.png",
+                "text": "A good structure is imperative for any website, system or game. A good structure means readable code, editable code and therefore good functional code. In web design having a good structure is even more important as this allows us to access areas and functions we otherwise couldn't. We start with our doctype element as we saw earlier and then create a <var>&#60;html></var> and a &#60;/html> element. The html element coverers the entire screen allowing us to change the background color of everything. Next inside of this add a &#60;head> element. This is where we connect our html to other things like external fonts, stylesheets (CSS) and javascript files. We would also put meta things here like the character set and the webpage title. Underneath our head element - after it has been closed with &#60;/head> - create a &#60;body> &#60;/body> element. This is where we put all the visual elements of the website, images, text, videos etc. Note the comments using &#60;!--Comment Text> this is never displayed on the screen so it is fine to have as many comments as you like."
             }
         }
     }
